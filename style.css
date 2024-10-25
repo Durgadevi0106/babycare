@@ -35,13 +35,12 @@ a:hover{
 .container{
     background-image: url(https://www.shutterstock.com/image-photo/loving-mom-carying-her-newborn-600nw-1531703333.jpg);
     width:100%;
-    background-repeat:no-repeat;
     background-size:cover;
     height: 100vh;
     position: relative;
 }
 .box{
-    width:300px;
+    width:320px;
     height:320px;
     background-color: white;
     color: black;
@@ -52,6 +51,7 @@ a:hover{
     display: flex;
     flex-flow: wrap column;
     align-items: center; 
+    padding: 10px;
 }
 strong {
     padding: 10px;
@@ -74,14 +74,13 @@ strong {
 b:hover{
     color: orangered;
 }
-u:hover{
+/* u:hover{
     color: orangered;
-}
+} */
 p{
-    margin: 10px;
+    margin: 5px;
     font-size: 1.5rem;
     text-align: center;
-
 }
 b{
     font-size:2rem;
